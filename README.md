@@ -1,5 +1,5 @@
 # ed-material-farming
-Elite: Dangerous Material Farming
+[Elite: Dangerous](https://www.frontierstore.net/elite-dangerous.html) Material Farming
 
 Live on my [GitHub Pages](https://eli112358.github.io/ed-material-farming/)
 
