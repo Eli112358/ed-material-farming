@@ -1,0 +1,23 @@
+:root {
+    background-color: black;
+    color: orange;
+}
+#header {
+    margin-bottom: 1em;
+}
+#header a::after {
+    content: '\a';
+    white-space: pre;
+}
+a {
+    color: yellow;
+}
+a:visited {
+    color: lime;
+}
+.footer {
+    padding-top: 10em;
+}
+li {
+    padding: 0.1em;
+}

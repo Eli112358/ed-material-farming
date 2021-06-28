@@ -1,0 +1,22 @@
+.section h2 {
+    color: white;
+}
+:where(
+    #polonium,
+    #ruthenium,
+    #technetium,
+    #tellurium,
+):checked ~ .sections .hip-36601,
+:where(
+    #antimony,
+    #yttrium
+):checked ~ .sections .outotz-ls-k-d8-3,
+#antimony:checked ~ .sections .outotz-ls-k-d8-3 .b-5-c,
+#polonium:checked ~ .sections .hip-36601 .c-1-a,
+#ruthenium:checked ~ .sections .hip-36601 .c-1-d,
+#technetium:checked ~ .sections .hip-36601 .c-3-b,
+#tellurium:checked ~ .sections .hip-36601 .c-5-a,
+#yttrium:checked ~ .sections .outotz-ls-k-d8-3 .b-5-a
+{
+    display: block;
+}

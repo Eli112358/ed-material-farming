@@ -1,0 +1,30 @@
+.federation h2 {
+    color: blue;
+}
+.empire h2 {
+    color: red;
+}
+.independent-or-alliance h2 {
+    color: gray;
+}
+:where(#core-dynamics-composites, #proprietary-composites):checked ~ .sections .federation,
+#imperial-shielding:checked ~ .sections .empire,
+:where(
+    #improvised-components,
+    #military-grade-alloys,
+    #military-supercapacitors,
+    #pharmaceutical-isolators,
+    #proto-heat-radiators,
+    #proto-light-alloys,
+    #proto-radiolic-alloys
+):checked ~ .sections .independent-or-alliance,
+:where(#core-dynamics-composites, #proprietary-composites):checked ~ .sections .federation .election-none,
+:where(#military-grade-alloys, #military-supercapacitors):checked ~ .sections .independent-or-alliance .war,
+#improvised-components:checked ~ .sections .independent-or-alliance .civil-unrest,
+#imperial-shielding:checked ~ .sections .empire .election-none,
+#pharmaceutical-isolators:checked ~ .sections .independent-or-alliance .outbreak,
+:where(#proto-heat-radiators, #proto-light-alloys):checked ~ .sections .independent-or-alliance .boom,
+#proto-radiolic-alloys:checked ~ .sections .independent-or-alliance .expansion
+{
+    display: block;
+}
