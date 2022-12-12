@@ -1,5 +1,5 @@
 .section h2 {
-    color: white;
+    color: var(--highlight-1);
 }
 .filter-list:has(:where(
     #polonium,

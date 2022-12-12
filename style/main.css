@@ -1,6 +1,12 @@
 :root {
-    background-color: black;
-    color: orange;
+    --bg-color: black;
+    --color: orange;
+    --accent-1: yellow;
+    --accent-2: lime;
+    --highlight-1: white;
+    --highlight-2: #999;
+    background-color: var(--bg-color);
+    color: var(--color);
 }
 #header {
     margin-bottom: 1em;
@@ -10,10 +16,10 @@
     white-space: pre;
 }
 a {
-    color: yellow;
+    color: var(--accent-2);
 }
 a:visited {
-    color: lime;
+    color: var(--accent-1);
 }
 .footer {
     padding-top: 10em;
