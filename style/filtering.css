@@ -28,3 +28,12 @@ label::after {
 .entry {
     display: none;
 }
+input {
+    display: none;
+}
+label {
+    border: .1rem dotted var(--highlight-2);
+}
+label:has(input:checked) {
+    border: .1rem solid var(--highlight-1);
+}
