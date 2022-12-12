@@ -22,3 +22,32 @@
 {
     display: block;
 }
+.coords {
+    display: none;
+    color: var(--accent-1);
+    line-height: 1.5rem;
+}
+.coords-toggle {
+    margin-top: 1rem;
+}
+.coords-toggle:has(input:checked) ~ .sections .coords
+{
+    display: inline;
+}
+.coords-toggle svg *
+{
+    stroke: var(--color);
+    stroke-width: 1;
+    fill: none;
+}
+.coords-toggle svg circle {
+    fill: var(--bg-color);
+}
+.coords-toggle label,
+.coords-toggle label:has(input:checked)
+{
+    border: none;
+}
+.coords-toggle:has(input:checked) .hidden {
+    display: none;
+}
