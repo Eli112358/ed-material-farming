@@ -1,24 +1,20 @@
-#filters {
-    display: none;
-}
-.filters {
+.filter-toggle {
     font-size: 1.5em;
+    line-height: 1.75rem;
 }
-.filters + input {
-    margin-top: 1em;
+.filter-list {
+    padding-left: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.filter-list label {
+    font-weight: bold;
+    line-height: 1.75rem;
 }
 label::after {
     content: '\a';
     white-space: pre;
-}
-:where(input, label):not(.filters) {
-    display: none;
-}
-#filters:checked ~ :where(input, label):not(.filters) {
-    display: inline;
-}
-input:not(.filters):checked + label {
-    font-weight: bold;
 }
 .sections {
     display: grid;

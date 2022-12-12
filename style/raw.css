@@ -1,22 +1,22 @@
 .section h2 {
     color: white;
 }
-:where(
+.filter-list:has(:where(
     #polonium,
     #ruthenium,
     #technetium,
     #tellurium
-):checked ~ .sections .hip-36601,
-:where(
+):checked) ~ .sections .hip-36601,
+.filter-list:has(:where(
     #antimony,
     #yttrium
-):checked ~ .sections .outotz-ls-k-d8-3,
-#antimony:checked ~ .sections .outotz-ls-k-d8-3 .b-5-c,
-#polonium:checked ~ .sections .hip-36601 .c-1-a,
-#ruthenium:checked ~ .sections .hip-36601 .c-1-d,
-#technetium:checked ~ .sections .hip-36601 .c-5-a,
-#tellurium:checked ~ .sections .hip-36601 .c-3-b,
-#yttrium:checked ~ .sections .outotz-ls-k-d8-3 .b-5-a
+):checked) ~ .sections .outotz-ls-k-d8-3,
+.filter-list:has(#antimony:checked) ~ .sections .outotz-ls-k-d8-3 .b-5-c,
+.filter-list:has(#polonium:checked) ~ .sections .hip-36601 .c-1-a,
+.filter-list:has(#ruthenium:checked) ~ .sections .hip-36601 .c-1-d,
+.filter-list:has(#technetium:checked) ~ .sections .hip-36601 .c-5-a,
+.filter-list:has(#tellurium:checked) ~ .sections .hip-36601 .c-3-b,
+.filter-list:has(#yttrium:checked) ~ .sections .outotz-ls-k-d8-3 .b-5-a
 {
     display: block;
 }

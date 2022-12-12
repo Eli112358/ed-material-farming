@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Raw - ED Material Farming</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/toggle.css">
 	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link rel="stylesheet" type="text/css" href="style/filtering.css">
 	<link rel="stylesheet" type="text/css" href="style/raw.css">
@@ -16,13 +17,17 @@
 		<a href="#how-to">How to use this</a>
 	</div>
 	<div class="content">
-		<label>Materials<input type="checkbox"></label>
-		<label>Antimony<input id="antimony" type="checkbox" checked></label>
-		<label>Polonium<input id="polonium" type="checkbox" checked></label>
-		<label>Ruthenium<input id="ruthenium" type="checkbox" checked></label>
-		<label>Technetium<input id="technetium" type="checkbox" checked></label>
-		<label>Tellurium<input id="tellurium" type="checkbox" checked></label>
-		<label>Yttrium<input id="yttrium" type="checkbox" checked></label>
+		<div class="toggle-btn toggle-manual filter-toggle">
+			<label>Materials<input type="checkbox"></label>
+		</div>
+		<div class="toggle-area filter-list">
+			<label>Antimony<input id="antimony" type="checkbox" checked></label>
+			<label>Polonium<input id="polonium" type="checkbox" checked></label>
+			<label>Ruthenium<input id="ruthenium" type="checkbox" checked></label>
+			<label>Technetium<input id="technetium" type="checkbox" checked></label>
+			<label>Tellurium<input id="tellurium" type="checkbox" checked></label>
+			<label>Yttrium<input id="yttrium" type="checkbox" checked></label>
+		</div>
 		<div class="sections">
 			<div class="section hip-36601">
 				<h2>HIP 36601</h2>
