@@ -5,6 +5,6 @@ Live on my [GitHub Pages](https://eli112358.github.io/ed-material-farming/)
 
 ## Inspiration and Credit
 
-All information in this project is originally from [this video by CMDR Exigeous](https://www.youtube.com/watch?v=-4HClk1cRIo).
+All information in this project is originally from [this video by CMDR Exigeous](https://www.youtube.com/watch?v=-4HClk1cRIo) and [this video by Down to Earth Astronomy](https://www.youtube.com/watch?v=Ffqx_j_xRnc).
 
 The concept for an interactive interface without JavaScript is from [Kevin Powell](https://www.youtube.com/kepowob) (can't remember which video specifically, if any).
