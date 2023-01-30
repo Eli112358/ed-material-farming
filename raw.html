@@ -11,7 +11,7 @@
 		<link href="style/raw.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<div id="header">
+		<header id="top">
 			<a aria-label="View source on GitHub" class="github-corner" href="https://github.com/Eli112358">
 				<svg aria-hidden="true" height="80"
 				     style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"
@@ -30,66 +30,66 @@
 			<h2>Type: Raw</h2>
 			<h3>(Crystal Shards and Brain Trees)</h3>
 			<a href="#how-to">How to use this</a>
+		</header>
+		<div class="container">
+			<section id="main_content">
+				<div class="toggle-btn toggle-manual filter-toggle">
+					<label><input type="checkbox">Materials</label>
+				</div>
+				<div class="toggle-area filter-list">
+					<label><input checked id="antimony" type="checkbox">Antimony</label>
+					<label><input checked id="polonium" type="checkbox">Polonium</label>
+					<label><input checked id="ruthenium" type="checkbox">Ruthenium</label>
+					<label><input checked id="technetium" type="checkbox">Technetium</label>
+					<label><input checked id="tellurium" type="checkbox">Tellurium</label>
+					<label><input checked id="selenium" type="checkbox">Selenium</label>
+					<label><input checked id="yttrium" type="checkbox">Yttrium</label>
+				</div>
+				<div class="coords-toggle"><label>Coordinates <input checked type="checkbox">
+					<svg height="16" width="20">
+						<circle cx="10" cy="10" r="4"/>
+						<path d="M 0 10 q 10 -10 20 0"/>
+						<path d="M 0 10 q 10 10 20 0"/>
+						<line class="hidden" x1="0" x2="20" y1="5" y2="15"/>
+					</svg>
+				</label></div>
+				<div class="sections">
+					<div class="section hip-36601">
+						<h2>HIP 36601</h2>
+						<div class="entry c-1-a">C 1 A</div>
+						<div class="entry c-1-d">C 1 D</div>
+						<div class="entry c-3-b">C 3 B</div>
+						<div class="entry c-5-a">C 5 A</div>
+					</div>
+					<div class="section outotz-ls-k-d8-3">
+						<h2>Outotz LS-K d8-3</h2>
+						<div class="entry b-5-a">B 5 A</div>
+						<div class="entry b-5-c">B 5 C</div>
+					</div>
+					<div class="section hr-3230">
+						<h2>HR 3230</h2>
+						<div class="entry _3-a-a">3 A A<span class="coords"> (23.4168,163.7574)</span></div>
+					</div>
+				</div>
+			</section>
 		</div>
-		<div class="content">
-			<div class="toggle-btn toggle-manual filter-toggle">
-				<label><input type="checkbox">Materials</label>
+		<footer>
+			<h2 id="how-to">How To Use</h2>
+			<ul>
+				<li>Click/tap on "Materials" to toggle the material filters</li>
+				<li>Uncheck each material as you fill up on them</li>
+				<li>The associated body will hide once you no longer need it</li>
+				<li>Under each system is listed the bodies to focus on</li>
+				<li>If you don't need any bodies in a system, the entire system will hide</li>
+			</ul>
+			<a href="#top">Top</a>
+			<div class="credit">
+				All information on this page is originally from
+				<a href="https://www.youtube.com/watch?v=-4HClk1cRIo">this video by CMDR Exigeous</a> and
+				<a href="https://www.youtube.com/watch?v=Ffqx_j_xRnc">this video by Down to Earth Astronomy</a>.<br>
+				The concept for an interactive interface without JavaScript is from <a
+					href="https://www.youtube.com/kepowob">Kevin Powell</a>.
 			</div>
-			<div class="toggle-area filter-list">
-				<label><input checked id="antimony" type="checkbox">Antimony</label>
-				<label><input checked id="polonium" type="checkbox">Polonium</label>
-				<label><input checked id="ruthenium" type="checkbox">Ruthenium</label>
-				<label><input checked id="technetium" type="checkbox">Technetium</label>
-				<label><input checked id="tellurium" type="checkbox">Tellurium</label>
-				<label><input checked id="selenium" type="checkbox">Selenium</label>
-				<label><input checked id="yttrium" type="checkbox">Yttrium</label>
-			</div>
-			<div class="coords-toggle"><label>Coordinates <input checked type="checkbox">
-				<svg height="16" width="20">
-					<circle cx="10" cy="10" r="4"/>
-					<path d="M 0 10 q 10 -10 20 0"/>
-					<path d="M 0 10 q 10 10 20 0"/>
-					<line class="hidden" x1="0" x2="20" y1="5" y2="15"/>
-				</svg>
-			</label></div>
-			<div class="sections">
-				<div class="section hip-36601">
-					<h2>HIP 36601</h2>
-					<div class="entry c-1-a">C 1 A</div>
-					<div class="entry c-1-d">C 1 D</div>
-					<div class="entry c-3-b">C 3 B</div>
-					<div class="entry c-5-a">C 5 A</div>
-				</div>
-				<div class="section outotz-ls-k-d8-3">
-					<h2>Outotz LS-K d8-3</h2>
-					<div class="entry b-5-a">B 5 A</div>
-					<div class="entry b-5-c">B 5 C</div>
-				</div>
-				<div class="section hr-3230">
-					<h2>HR 3230</h2>
-					<div class="entry _3-a-a">3 A A<span class="coords"> (23.4168,163.7574)</span></div>
-				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<div id="how-to">
-				<h2>How To Use</h2>
-				<ul>
-					<li>Click/tap on "Materials" to toggle the material filters</li>
-					<li>Uncheck each material as you fill up on them</li>
-					<li>The associated body will hide once you no longer need it</li>
-					<li>Under each system is listed the bodies to focus on</li>
-					<li>If you don't need any bodies in a system, the entire system will hide</li>
-				</ul>
-				<a href="#header">Top</a>
-				<div class="credit">
-					All information on this page is originally from
-					<a href="https://www.youtube.com/watch?v=-4HClk1cRIo">this video by CMDR Exigeous</a> and
-					<a href="https://www.youtube.com/watch?v=Ffqx_j_xRnc">this video by Down to Earth Astronomy</a>.<br>
-					The concept for an interactive interface without JavaScript is from <a
-						href="https://www.youtube.com/kepowob">Kevin Powell</a>.
-				</div>
-			</div>
-		</div>
+		</footer>
 	</body>
 </html>

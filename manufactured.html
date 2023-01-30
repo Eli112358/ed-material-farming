@@ -11,7 +11,7 @@
 		<link href="style/manufactured.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<div id="header">
+		<header id="top">
 			<a aria-label="View source on GitHub" class="github-corner" href="https://github.com/Eli112358">
 				<svg aria-hidden="true" height="80"
 				     style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"
@@ -30,61 +30,61 @@
 			<h2>Type: Manufactured</h2>
 			<h3>(High Grade Emissions)</h3>
 			<a href="#how-to">How to use this</a>
+		</header>
+		<div class="container">
+			<section id="main_content">
+				<div class="toggle-btn toggle-manual filter-toggle">
+					<label><input type="checkbox">Materials</label>
+				</div>
+				<div class="toggle-area filter-list">
+					<label><input checked id="core-dynamics-composites" type="checkbox">Core Dynamics Composites</label>
+					<label><input checked id="imperial-shielding" type="checkbox">Imperial Shielding</label>
+					<label><input checked id="improvised-components" type="checkbox">Improvised Components</label>
+					<label><input checked id="military-grade-alloys" type="checkbox">Military Grade Alloys</label>
+					<label><input checked id="military-supercapacitors" type="checkbox">Military Supercapacitors</label>
+					<label><input checked id="pharmaceutical-isolators" type="checkbox">Pharmaceutical Isolators</label>
+					<label><input checked id="proprietary-composites" type="checkbox">Proprietary Composites</label>
+					<label><input checked id="proto-heat-radiators" type="checkbox">Proto Heat Radiators</label>
+					<label><input checked id="proto-light-alloys" type="checkbox">Proto Light Alloys</label>
+					<label><input checked id="proto-radiolic-alloys" type="checkbox">Proto Radiolic Alloys</label>
+				</div>
+				<div class="sections">
+					<div class="section federation">
+						<h2>Federation</h2>
+						<div class="entry election-none">Election/None</div>
+					</div>
+					<div class="section empire">
+						<h2>Empire</h2>
+						<div class="entry election-none">Election/None</div>
+					</div>
+					<div class="section independent-or-alliance">
+						<h2>Independent or Alliance</h2>
+						<div class="entry boom">Boom</div>
+						<div class="entry civil-unrest">Civil Unrest</div>
+						<div class="entry expansion">Expansion</div>
+						<div class="entry outbreak">Outbreak</div>
+						<div class="entry war">War/Civil War</div>
+					</div>
+				</div>
+			</section>
 		</div>
-		<div class="content">
-			<div class="toggle-btn toggle-manual filter-toggle">
-				<label><input type="checkbox">Materials</label>
+		<footer>
+			<h2 id="how-to">How To Use</h2>
+			<ul>
+				<li>Click/tap on "Materials" to toggle the material filters</li>
+				<li>Uncheck each material as you fill up on them</li>
+				<li>The associated allegiance/state will hide once you no longer need it</li>
+				<li>Under each superpower is listed the states to focus on</li>
+				<li>If you don't need any state under a superpower, the entire superpower will hide</li>
+			</ul>
+			<a href="#top">Top</a>
+			<div class="credit">
+				All information on this page is originally from <a
+					href="https://www.youtube.com/watch?v=-4HClk1cRIo">this video by CMDR Exigeous</a>.<br>
+				The concept for an interactive interface without JavaScript is from <a
+					href="https://www.youtube.com/kepowob">Kevin
+				Powell</a>.
 			</div>
-			<div class="toggle-area filter-list">
-				<label><input checked id="core-dynamics-composites" type="checkbox">Core Dynamics Composites</label>
-				<label><input checked id="imperial-shielding" type="checkbox">Imperial Shielding</label>
-				<label><input checked id="improvised-components" type="checkbox">Improvised Components</label>
-				<label><input checked id="military-grade-alloys" type="checkbox">Military Grade Alloys</label>
-				<label><input checked id="military-supercapacitors" type="checkbox">Military Supercapacitors</label>
-				<label><input checked id="pharmaceutical-isolators" type="checkbox">Pharmaceutical Isolators</label>
-				<label><input checked id="proprietary-composites" type="checkbox">Proprietary Composites</label>
-				<label><input checked id="proto-heat-radiators" type="checkbox">Proto Heat Radiators</label>
-				<label><input checked id="proto-light-alloys" type="checkbox">Proto Light Alloys</label>
-				<label><input checked id="proto-radiolic-alloys" type="checkbox">Proto Radiolic Alloys</label>
-			</div>
-			<div class="sections">
-				<div class="section federation">
-					<h2>Federation</h2>
-					<div class="entry election-none">Election/None</div>
-				</div>
-				<div class="section empire">
-					<h2>Empire</h2>
-					<div class="entry election-none">Election/None</div>
-				</div>
-				<div class="section independent-or-alliance">
-					<h2>Independent or Alliance</h2>
-					<div class="entry boom">Boom</div>
-					<div class="entry civil-unrest">Civil Unrest</div>
-					<div class="entry expansion">Expansion</div>
-					<div class="entry outbreak">Outbreak</div>
-					<div class="entry war">War/Civil War</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<div id="how-to">
-				<h2>How To Use</h2>
-				<ul>
-					<li>Click/tap on "Materials" to toggle the material filters</li>
-					<li>Uncheck each material as you fill up on them</li>
-					<li>The associated allegiance/state will hide once you no longer need it</li>
-					<li>Under each superpower is listed the states to focus on</li>
-					<li>If you don't need any state under a superpower, the entire superpower will hide</li>
-				</ul>
-				<a href="#header">Top</a>
-				<div class="credit">
-					All information on this page is originally from <a
-						href="https://www.youtube.com/watch?v=-4HClk1cRIo">this video by CMDR Exigeous</a>.<br>
-					The concept for an interactive interface without JavaScript is from <a
-						href="https://www.youtube.com/kepowob">Kevin
-					Powell</a>.
-				</div>
-			</div>
-		</div>
+		</footer>
 	</body>
 </html>

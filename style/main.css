@@ -8,10 +8,10 @@
     background-color: var(--bg-color);
     color: var(--color);
 }
-#header {
+header {
     margin-bottom: 1em;
 }
-#header a::after {
+header a::after {
     content: '\a';
     white-space: pre;
 }
@@ -21,7 +21,7 @@ a {
 a:visited {
     color: var(--accent-1);
 }
-.footer {
+footer {
     padding-top: 10em;
 }
 li {
